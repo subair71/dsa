@@ -9,6 +9,9 @@ public class Main {
      Stack myStack=new Stack(4);
 
     myStack.push(2);
+        myStack.push(1);
+        myStack.push(3);
+        myStack.pop();
      myStack.printStack();
 
     }
