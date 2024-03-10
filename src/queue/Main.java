@@ -5,5 +5,8 @@ public class Main {
         Queue myQueue=new Queue(1);
         myQueue.enqueue(2);
         myQueue.printQueue();
+        myQueue.getFirst();
+        myQueue.getLast();
+        myQueue.getLength();
     }
 }

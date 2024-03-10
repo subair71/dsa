@@ -34,6 +34,17 @@ public class Queue {
         }
    }
 
+   public void getFirst(){
+       System.out.println("First: "+first.value);
+   }
+    public void getLast(){
+        System.out.println("First: "+last.value);
+    }
+
+    public void getLength(){
+        System.out.println("Length: "+length);
+    }
+
 
     class Node {
         int value;
